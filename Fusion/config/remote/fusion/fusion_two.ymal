@@ -1,0 +1,69 @@
+
+#RGB
+data_root : /home/10401006/dataSet/NTU/frame/
+dataset : NTU
+n_classes : 60
+n_finetune_classes : 60
+model_depth : 101
+
+num_segments : 64
+sample_duration : 64
+
+output_layers : ['more_layer1']
+resume_path1 : /home/10401006/code/Cross_MARS/NTU/RGB/preKin_RGB_NTU_epoch:81_acc:88.26142131979695.pth
+
+#skeleton
+skeleton_mode: 'joint'
+joint_weights : /home/10401006/code/Cross_MARS/ETRI/skeleton/117_0.87.pt
+
+# feeder
+feeder: dataset.fusion_dataset.Feeder
+train_feeder_args:
+  skeleton_data_path: /home/10401006/dataSet/NTU/xsub/train_data_joint.npy
+  skeleton_label_path:  /home/10401006/dataSet/NTU/xsub/train_label.pkl
+  list_file : /home/10401006/dataSet/NTU/frame_train_val_index/cs/train.txt
+  length : 1
+  image_tmpl: "{:05d}.jpg"
+  modality: RGB
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: -1
+  normalization: False
+
+test_feeder_args:
+  skeleton_data_path:  /home/10401006/dataSet/NTU/xsub/val_data_joint.npy
+  skeleton_label_path:  /home/10401006/dataSet/NTU/xsub/val_label.pkl
+  list_file:  /home/10401006/dataSet/NTU/frame_train_val_index/cs/val.txt
+  length: 1
+  image_tmpl: "{:05d}.jpg"
+
+# skeleton_model
+skeleton_model: skeleton_model.shift_gcn.Model
+model_args:
+  output_layers: 'more_layer1'
+  num_class: 60
+  num_point: 25
+  num_person: 2
+  graph: graph.ntu_rgb_d.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+
+#fusion_pretrain: D:/code/Cross_MARS/ETRI/RGB/RGB_ETRI_epoch_28_acc_81.33622491638796.pth
+
+#optim
+learning_rate : 0.1
+weight_decay: 0.0001
+base_lr: 0.1
+step: [5,10, 20, 30]
+
+# training
+device: [0,1]
+batch_size : 32
+test_batch_size: 32
+num_epoch: 40
+nesterov: True
+mod: 'fusion'
+n_workers: 16
+
+

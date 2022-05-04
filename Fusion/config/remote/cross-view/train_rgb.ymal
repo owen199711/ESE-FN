@@ -1,0 +1,32 @@
+
+# dataset
+data_root: E:/dataSet/ETRI/RGB_P001-P010/frame
+modality: 'RGB'
+
+train_list: /home/10401006/dataSet/ETRI/64/train.txt
+
+val_list: /home/10401006/dataSet/ETRI/64/val.txt
+
+#train
+input_channels: 3
+n_classes: 55
+n_finetune_classes: 55
+num_segments: 64
+sample_duration: 64
+resume_path1: ''
+backbone: "ResNeXt101"
+rgb_finetune_path: ''
+output_layers: ''
+
+#optim
+weight_decay: 0.0001
+base_lr: 0.1
+step: [60, 80, 100]
+
+device: [0,1]
+batch_size: 16
+test_batch_size: 64
+num_epoch: 140
+nesterov: True
+mod: 'RGB'
+n_workers: 8

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05928133-15db-45a2-961c-257f69a9c293" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="218Wbfdcki79E9uWdVWapq87mi0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\Fusion\work_dir\ETRI\skeleton" />
+      <recent name="D:\code\Fusion\work_dir\ETRI\RGB" />
+      <recent name="D:\code\Fusion" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.fusionNet">
+    <configuration name="fusionNet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Fusion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fusion_model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fusion_model/fusionNet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="skeleton_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Fusion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/skeleton_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="two_stream_fusion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Fusion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/two_stream_fusion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.fusionNet" />
+        <item itemvalue="Python.two_stream_fusion" />
+        <item itemvalue="Python.skeleton_train" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05928133-15db-45a2-961c-257f69a9c293" name="Default Changelist" comment="" />
+      <created>1637323267647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637323267647</updated>
+      <workItem from="1637323279452" duration="71000" />
+      <workItem from="1637323377716" duration="99000" />
+      <workItem from="1637323566013" duration="12528000" />
+      <workItem from="1651680071486" duration="3344000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="371" y="146" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651682038321">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="371" y="146" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1651682038321" />
+    <state width="1238" height="202" key="GridCell.Tab.0.bottom" timestamp="1651683433854">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="202" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1651683433854" />
+    <state width="1238" height="202" key="GridCell.Tab.0.center" timestamp="1651683433854">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="202" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1651683433854" />
+    <state width="1238" height="202" key="GridCell.Tab.0.left" timestamp="1651683433854">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="202" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1651683433854" />
+    <state width="1238" height="202" key="GridCell.Tab.0.right" timestamp="1651683433854">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="202" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1651683433854" />
+    <state width="1238" height="251" key="GridCell.Tab.1.bottom" timestamp="1651683433854">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="251" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1651683433854" />
+    <state width="1238" height="251" key="GridCell.Tab.1.center" timestamp="1651683433854">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="251" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1651683433854" />
+    <state width="1238" height="251" key="GridCell.Tab.1.left" timestamp="1651683433854">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="251" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1651683433854" />
+    <state width="1238" height="251" key="GridCell.Tab.1.right" timestamp="1651683433854">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="251" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1651683433854" />
+    <state x="135" y="41" key="SettingsEditor" timestamp="1651680119381">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="135" y="41" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1651680119381" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/skeleton_train.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fusion_model/fusionNet.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Fusion$two_stream_fusion.coverage" NAME="two_stream_fusion Coverage Results" MODIFIED="1637391333630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Fusion$skeleton_train.coverage" NAME="skeleton_train Coverage Results" MODIFIED="1637324800878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Fusion$fusionNet.coverage" NAME="fusionNet Coverage Results" MODIFIED="1651681816546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fusion_model" />
+  </component>
+</project>

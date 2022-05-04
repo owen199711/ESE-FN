@@ -1,0 +1,47 @@
+Experiment_name: ntu_ShiftGCN_joint_xsub
+
+
+skeleton_mode: 'bone'
+bone_weights: /home/10401006/code/Cross_MARS/ETRI/skeleton/39_0.87.pt
+# feeder
+feeder: skeleton_dataset.feeder.Feeder
+train_feeder_args:
+  data_path: /home/10401006/dataSet/ETRI/64/sub/train_data_bone.npy
+  label_path: /home/10401006/dataSet/ETRI/64/sub/train_label.pkl
+  debug: False
+  random_choose: False
+  random_shift: False
+  random_move: False
+  window_size: -1
+  normalization: False
+
+test_feeder_args:
+  data_path: /home/10401006/dataSet/ETRI/64/sub/val_data_bone.npy
+  label_path: /home/10401006/dataSet/ETRI/64/sub/val_label.pkl
+
+# skeleton_model
+skeleton_model: skeleton_model.shift_gcn.Model
+model_args:
+  output_layers : 'avgpool'
+  num_class: 55
+  num_point: 25
+  num_person: 2
+  graph: graph.ntu_rgb_d.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+
+#optim
+weight_decay: 0.0001
+base_lr: 0.001
+step: [10, 40, 80]
+
+# training
+#weights: /home/10401006/code/Cross_MARS/ETRI/skeleton/16_0.8.pt
+device: [0]
+only_train_epoch: 1
+batch_size: 32
+test_batch_size: 32
+num_epoch: 140
+nesterov: True
+mod: 'skeleton'
+n_workers: 16
